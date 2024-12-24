@@ -1,0 +1,16 @@
+[build]
+# The directory where your Go files are located and the command to run
+cmd = "go run main.go"  # Change this path if your file is located elsewhere
+bin = "tmp"  # Output binary directory (can be changed)
+
+# Watch files for changes (you can add more extensions if needed)
+include_ext = ["go", "tpl", "tmpl", "html"]
+
+# Exclude these directories from being watched
+exclude_dir = ["tmp", "vendor", "node_modules"]
+
+[log]
+time = true  # Print timestamps in the log for better debugging
+
+[server]
+address = "localhost:8080"  # You can change the address and port if needed

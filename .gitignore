@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Go build files
+bin/
+tmp/
+
+# Environment variables
+.env
+
+# IDE configurations
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+
+# Log files
+*.log
